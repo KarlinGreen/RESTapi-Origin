@@ -1,0 +1,24 @@
+<%- include ../partials/header.ejs %>
+<div class="container">
+    <div class="well col-xs-4 col-s-4 col-md-offset-4 col-md-4 col-lg-offset-4 col-lg-4" style="border-radius: 25px;">
+      <h1><%= title %></h1>
+      <br>
+      <form action="submit">
+      <fieldset class="row">
+          <label for="email" class="col-md-3 col-lg-3"> Email: </label>
+          <input name="email" type="email" class="col-md-6 col-lg-6"  required></input>
+        </fieldset>
+        <br>
+        <fieldset class="row">
+          <label for="password" class="col-md-3 col-lg-3"> Password: </label>
+          <input name="password" type ="password" class="col-md-6 col-lg-6" required ></input>
+        </fieldset>
+        <br>
+        <fieldset>
+          <input type="submit" class="btn btn-info col-md-offset-5 col-lg-offset-5"></input>
+      </fieldset>
+      </form>
+    </div>
+</div>
+  </body>
+</html>
